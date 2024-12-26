@@ -1,17 +1,23 @@
-// Add an event listener for the scroll event
 window.addEventListener("scroll", function() {
-    // Get the navbar element by its ID
     var navbar = document.getElementById("navbar");
-    
-    // Check if the navbar element exists
+    var navlink = document.querySelectorAll(".nav-item>.nav-link");
+    var selc=document.querySelector(".selc")
+    var dr=document.querySelector(".dr")
     if (navbar) {
-        // If the scroll position is greater than 500 pixels
-        if (window.scrollY > 500) {
-            // Add the "fixtop" class to the navbar
+        if (window.scrollY > 600) {
             navbar.classList.add("fixtop");
+            selc.classList.add("selc1e")
+            dr.classList.add("ddd")
+            navlink.forEach((e) => {
+                e.classList.add("colb"); // Ensure you're adding the correct class
+                console.log(e);
+            });
         } else {
-            // Remove the "fixtop" class from the navbar
             navbar.classList.remove("fixtop");
+            navlink.forEach((e) => {
+                e.classList.remove("colb"); // Remove the same class added earlier
+                console.log(e);
+            });
         }
     }
 });
