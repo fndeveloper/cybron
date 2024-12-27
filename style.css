@@ -483,7 +483,7 @@ background-position: center;
 
 .adbook{
  
-  background-color: #f0f0f0 !important;
+  background-color: #ffffff !important;
 border-radius: 12px;
 z-index: 2;
 }
@@ -492,7 +492,8 @@ iframe{
 }
 
 .formm{
-background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+background-color: rgba(255, 255, 255, 0.76);
 }
 
 #form>div>input{
@@ -509,10 +510,7 @@ outline: 2px solid white !important;
  
   border-bottom:1px solid var(--color1) !important ;
 }
-.form-contro{
-outline: 2px solid white !important;
-border: none !important;
-}
+
 #form>div>select{
   background-color: transparent;
 border: none;
@@ -593,4 +591,44 @@ background-image: url("assets/banner\ \(6\).png");
 }
 .gty>div>span{
   font-weight: 600;
+}
+.contact-page{
+  background-position: center;
+  /* height: 80vh; */
+  background-image: url(assets/contact.png);
+}
+
+.locte{
+  margin-top: -5px;
+  font-size: 14px;
+}
+.form-control1{
+  border-radius: 6px !important;
+  padding: 15px !important;
+  font-size: 14px !important;
+  outline: none !important;
+  transition: 0.3s ease-in-out !important;
+
+}
+.form-control1:hover{
+  border: 1px solid var(--color1);
+}
+.form-control1:focus{
+ 
+  border:none;
+  border-bottom: 1px solid var(--color1) !important;
+outline: none !important;
+  color: var(--color1) !important;
+}
+.map{
+  height: 80vh !important;
+}
+footer{
+  font-size: 14px;
+  color: var(--text-color1);
+}
+.list-unstyled>li>a{
+  font-size: 14px;
+  color: var(--text-color1) !important;
+
 }
