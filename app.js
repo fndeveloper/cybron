@@ -51,3 +51,8 @@ form.addEventListener("submit",(e)=>{
    
     
 })
+
+// slider
+
+  
+// slider

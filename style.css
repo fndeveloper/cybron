@@ -457,10 +457,8 @@ swiper-container {
   }
 
   swiper-slide {
-    color: white !important;
-    text-align: center;
-    font-size: 18px;
-    background: transparent;
+
+    font-size: 14px !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -632,3 +630,53 @@ footer{
   color: var(--text-color1) !important;
 
 }
+.testimoina{
+  padding: 40px 0px;
+  /* height: 100vh !important; */
+}
+.test-bg{
+  height: 90vh;
+  width: 100%;
+  background-image: url("assets/test\ \(1\).png");
+  background-size: cover;
+  object-fit: cover;
+  position: relative !important;
+display: block;
+}
+
+.testi1{
+  border-radius: 9%;
+  height: 350px !important;
+  width: 45% !important;
+  object-fit: cover;
+  background-size: cover;
+
+}
+.testi2{
+  position: absolute;
+  bottom: 0px !important;
+  clip-path: polygon(26% 0, 100% 0, 100% 20%, 100% 79%, 75% 100%, 20% 100%, 0 100%, 0% 20%);
+border-top-right-radius: 10%;
+border-top-left-radius: 30% !important;
+border-bottom-right-radius: 30% !important;
+
+
+border-bottom-left-radius: 10%;
+
+
+  height: 350px !important;
+  width: 45% !important;
+  object-fit: cover;
+  object-position: center center;
+  background-size: cover;
+right: 0px;
+}
+@media (max-width:992px) {
+  .testi2{
+    display: none !important;
+  }
+  .testi1{
+    width: 100% !important;
+  }
+}
+
