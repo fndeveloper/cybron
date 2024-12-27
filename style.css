@@ -40,6 +40,9 @@ body{
   background-color:#0000000a !important;
 
 }
+.backroun{
+background-color: var(--color1);
+}
 /* NAVBAR */
 .top{
   border-bottom: 0.01px solid rgba(255, 255, 255, 0.17);
@@ -48,9 +51,31 @@ body{
 .text-col{
   color: rgb(235, 235, 235) !important;
 }
+.span12{
+  font-size: 14px !important;
+}
 .colb{
 color: rgb(104, 104, 104) !important;
 font-weight: 400 !important;
+}
+.io{
+  height: 100vh;
+  position: relative !important;
+}
+
+.io1{
+  position: absolute !important;
+  right: 0px;
+  border-radius: 15px;
+  border-top-right-radius: 15px !important;
+  clip-path: polygon(77% 0, 100% 25%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);}
+.io2{
+  position: absolute !important;
+  bottom: 0px !important ;
+  left: 0px !important;
+}
+.aplomno{
+  /* height: 100vh !important; */
 }
 .fixtop{
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px !important;
@@ -375,8 +400,9 @@ z-index: 22 !important;
   height: 500px !important;
 }
 .ex-page{
-    background-image: url(assets/ff.png);
-    height: 60vh;
+  background-color: var(--color1);
+    /* background-image: url(assets/ff.png); */
+    height: 80vh;
     background-attachment: fixed;
     background-size: cover;
     object-fit: cover;
@@ -398,23 +424,28 @@ z-index: 22 !important;
 }
 
 .course-img1{
-    background-image: url(assets/services-1.jpg);
-   
+  border-radius: 14px;
+    background-image: url(assets/cir\ \(1\).jpg);
+   object-position: center;
     object-fit: cover;
+    background-position: center !important;
     background-size: cover;
 }
 .course-img2{
-    background-image: url(assets/services-2.jpg);
+    background-image: url(assets/cir\ \(2\).jpg);
+    background-position: center !important;
    
     object-fit: cover;
     background-size: cover;
 }.course-img3{
-    background-image: url(assets/services-3.jpg);
+    background-image: url(assets/cir\ \(4\).jpg);
+    background-position: center !important;
    
     object-fit: cover;
     background-size: cover;
 }.course-img4{
-    background-image: url(assets/services-4.jpg);
+    background-image: url(assets/cir\ \(5\).jpg);
+    background-position: center !important;
   
     object-fit: cover;
     background-size: cover;
@@ -422,6 +453,7 @@ z-index: 22 !important;
 .course-img{
     overflow: hidden !important;
     height: 400px;
+    z-index: 1;
     border: 8px solid white;
 }
 .hov{
@@ -430,7 +462,7 @@ width: 100%;
     transition: 0.9s ease;
 }
 .course-img:hover .hov{
-    background-color: #050c2bd3;
+    background-color:#6095ffb3;
 width: 100%;
     height: 385px;
 }
@@ -714,3 +746,16 @@ right: 0px;
   /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
 }
 /* suecss */
+
+.divof{
+  border: 2px solid red !important;
+padding: 5px 7px;
+  border-radius: 14px;
+z-index: 5;
+  position: absolute;
+  bottom: -20px;
+ left: 4%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid lightgrey;
+  background-color: white !important;
+}
