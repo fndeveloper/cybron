@@ -421,10 +421,18 @@ z-index: 22 !important;
   background-size: cover;
   height: 500px !important;
 }
+@media (max-width:992px) {
+  .ex-page{
+    justify-content: center;
+    font-size: 12px !important; 
+  }
+}
 .ex-page{
+  padding: 20px 0px !important;
+  font-size: 16px;
   background-color: var(--color1);
     /* background-image: url(assets/ff.png); */
-    height: 80vh;
+    height: calc(80vh - 30vh );
     background-attachment: fixed;
     background-size: cover;
     object-fit: cover;
@@ -684,6 +692,7 @@ outline: none !important;
   height: 80vh !important;
 }
 footer{
+ z-index: 1111 !important;
   font-size: 14px;
   color: var(--text-color1);
 }
@@ -785,3 +794,57 @@ z-index: 5;
   border: 1px solid lightgrey;
   background-color: white !important;
 }
+
+.whycol-1{
+  height: 100vh;
+  background-image: url(assets/uss\ \(3\).jpg);
+object-fit: cover;
+background-size: cover;
+}
+.smalltext{
+  color: var(--text-color);
+  font-size: 14px !important;
+}
+.us{
+  height: 500px !important;
+  object-fit: cover;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+position: relative;
+}
+.us1{
+background-image: url(assets/uss\ \(1\).jpg);
+}
+.us2{
+  background-image: url(assets/uss\ \(3\).jpg) !important;
+  }.us3{
+    background-image: url(assets/uss\ \(4\).jpg)
+    }
+    .ushover{
+      transition: 0.9s ease !important;
+      position: absolute;
+      height: 20%;
+      bottom: -50px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+      width: 90%;
+      margin-left: 5% !important;
+   
+      border-radius:  16px;
+      background-color:white;
+    }
+    .grttt:hover .ushover{
+     padding: 30px 0px !important;
+      height: 80% !important;
+
+    }
+    .grttt:hover .displaynone{
+      display:  block !important;
+    z-index: 10;
+    opacity: 1;
+    }
+    .displaynone{
+      opacity: 0;
+      z-index: -1;
+      display: none;
+    }
