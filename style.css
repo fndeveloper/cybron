@@ -328,7 +328,7 @@ margin-top: -55px !important;
 .carhover{
   border-radius: 10px !important;
  
-  transition: 0.5s ease!important;
+  transition: 0.9s ease!important;
   width: 5% !important;
 background-color:var(--color1) !important;
   position: absolute !important;
@@ -346,6 +346,13 @@ border-radius :50%;
 }
 .car:hover .card-body>h5{
   color: white !important;
+}
+.card-body>.card-title{
+  transition: 0.9s ease!important;
+
+}
+.card-body>h5,.card-body>.card-text{
+  transition: 0.9s ease!important;
 }
 .car:hover .card-body>.card-text{
   color: white !important;
