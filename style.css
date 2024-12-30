@@ -879,3 +879,14 @@ border-radius: 30px;
       clip-path: circle(50% at 50% 50%);
       background-color: red;
     }
+
+    .offcanvas-body>.navbar-nav>.nav-item>.nav-link{
+      color:var(--text-color) !important;
+      padding: 10px 0px !important;
+      border-bottom: 1px solid #bebebe !important;
+    }
+    .offcanvas{
+      transition: 0.9s ease-in-out !important;
+      width: 60% !important;
+    }
+  
