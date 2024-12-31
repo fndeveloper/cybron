@@ -20,7 +20,9 @@
 .col-org{
   color: var(--color1) !important;
 }
+
 body{
+  color: #313131 !important;
 
  font-family: var(--font-family) !important;
   margin: 0px;
@@ -99,9 +101,7 @@ font-weight: 400 !important;
   bottom: 0px !important ;
   left: 0px !important;
 }
-.aplomno{
-  /* height: 100vh !important; */
-}
+
 .fixtop{
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px !important;
   transition: 0.4s ease-in-out !important;
@@ -251,6 +251,7 @@ color: var(--color1) !important;
 .carousel-item>div>img{
     background-attachment: fixed !important;
     height: 100vh !important;
+
 }
 @media (max-width:992px) {
     /* .carousel-item>div>img{
@@ -260,6 +261,9 @@ color: var(--color1) !important;
      .main1{
         bottom: -250px !important;
      }
+}
+.carousel-item{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
 }
 .slider-img1:hover{
   transform: scale(1.09) !important;
@@ -894,4 +898,33 @@ border-radius: 30px;
     .dropdown-header{
       font-weight: 500  !important;
       color: black !important;
+    }
+    .divaddc>a{
+      transition: 0.3s ease-in-out !important;
+      padding: 2px 5px;
+      border-radius: 40px ;
+      color: #6095FF !important;
+      background-color: white;
+    }
+    .divaddc{
+
+      width: 100%; transition: 0.3s ease-in-out !important;
+     
+    /* padding: 10px; */
+      bottom: 90px;
+      position: absolute;
+    opacity: 0 !important;
+    
+      height:0px;
+      transition: 0.3s ease-in-out !important;
+      border-bottom: 1px solid white;
+    }
+    .colddd:hover .divaddc{ transition: 0.3s ease-in-out !important;
+     
+      opacity: 1 !important;
+    height: 40px;
+    background-color: #6095FF;
+    }
+    .colddd{
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
     }
