@@ -749,6 +749,15 @@ footer{
   bottom: 0px !important;
   
 }
+/* .accordion,.accordion-item {
+
+  background-color: var(--color1) !important;
+} */
+.accordion-button{
+  color: white !important;
+  background-color: var(--color1) !important;
+}
+
 .testi2{
   /* left: -50px !important; */
   top: 0px;
@@ -771,9 +780,10 @@ right: 0px;
 }
 @media (max-width:992px) {
   .testi2{
+    margin: 20px 0px !important;
     object-fit: cover !important;
     width: 80% !important;
-
+display: none !important;
   }
   .testi1{
     object-fit: cover !important;
