@@ -88,22 +88,21 @@ color: rgb(104, 104, 104) !important;
 font-weight: 400 !important;
 }
 .io{
-  height: calc(100vh - 40vh);
+  /* height: 60vh !important; */
   
-  position:relative !important;
-}
 
-.io1{
-  position: absolute !important;
-  right: 0px;
-  border-radius: 15px;
-  border-top-right-radius: 15px !important;
-  clip-path: polygon(77% 0, 100% 25%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);}
-.io2{
-  position: absolute !important;
-  bottom: 0px !important ;
-  left: 0px !important;
 }
+.io2{
+  bottom: 20px;
+  position: absolute;
+}
+.io1{
+  
+
+object-fit: cover;
+background-size: cover;
+   clip-path: polygon(77% 0, 100% 25%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);}
+
 
 .fixtop{
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px !important;
@@ -460,11 +459,11 @@ z-index: 22 !important;
   }
 }
 .ex-page{
-  padding: 20px 0px !important;
+  padding: 40px 0px !important;
   font-size: 16px;
   background-color: var(--color1);
     /* background-image: url(assets/ff.png); */
-    height: calc(80vh - 30vh );
+    /* height: calc(80vh - 30vh ); */
     background-attachment: fixed;
     background-size: cover;
     object-fit: cover;
@@ -731,26 +730,29 @@ footer{
   /* height: 100vh !important; */
 }
 .test-bg{
-  height: calc(90vh - 30vh);
+  /* height: calc(90vh - 30vh); */
   width: 100%;
   background-image: url("assets/test\ \(1\).png");
   background-size: cover;
   object-fit: cover;
   position: relative !important;
-display: block;
+
 }
 
 .testi1{
   border-radius: 9%;
   height: 350px !important;
-  width: 45% !important;
+  width: 55% !important;
   object-fit: cover;
+  position: absolute;
   background-size: cover;
-
+  bottom: 0px !important;
+  
 }
 .testi2{
+  /* left: -50px !important; */
+  top: 0px;
   position: absolute;
-  bottom: 0px !important;
   clip-path: polygon(26% 0, 100% 0, 100% 20%, 100% 79%, 75% 100%, 20% 100%, 0 100%, 0% 20%);
 border-top-right-radius: 10%;
 border-top-left-radius: 30% !important;
