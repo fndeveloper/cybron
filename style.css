@@ -13,6 +13,9 @@
 
  --font-family: "Poppins", serif;
 }
+button{
+  cursor: grab !important;
+}
 .active1{
   color: var(--golden-color) !important;
 }
@@ -89,11 +92,7 @@ background-color: var(--color1);
 color: rgb(104, 104, 104) !important;
 font-weight: 400 !important;
 }
-.io{
-  /* height: 60vh !important; */
-  
 
-}
 .io2{
   bottom: 20px;
   position: absolute;
@@ -126,6 +125,7 @@ font-weight: 500;
 transition: 0.4s ease-in-out !important;
   position: relative !important;
 }
+
 .icon-hover{
   color:transparent !important;
   position: absolute !important;
@@ -713,6 +713,7 @@ margin-top: -40px !important;
 .locte{
   margin-top: -5px;
   font-size: 14px;
+  color: white !important;
 }
 .form-control1{
   border-radius: 6px !important;
@@ -736,13 +737,17 @@ outline: none !important;
   height: 80vh !important;
 }
 footer{
+  background-color: #313131 !important;
  z-index: 1111 !important;
   font-size: 14px;
   color: var(--text-color1);
 }
+footer>div>div>div>h5{
+  color: var(--color1) !important;
+}
 .list-unstyled>li>a{
-  font-size: 14px;
-  color: var(--text-color1) !important;
+  font-size: 15px;
+  color: rgb(214, 214, 214) !important;
 
 }
 .testimoina{
@@ -758,10 +763,15 @@ footer{
   position: relative !important;
 
 }
-
+@media (max-width:992px) {
+  .testi1{
+    height: 240px !important;
+    /* display: none !important; */
+  }
+}
 .testi1{
   border-radius: 9%;
-  height: 350px !important;
+  height: 350px ;
   width: 55% !important;
   object-fit: cover;
   position: absolute;
