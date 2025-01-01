@@ -37,18 +37,20 @@ body{
   color: white;
 }
 .navhover{
+  /* background-color: #bb9108 !important; */
   position: absolute !important;
   top: 0px;
   width: 0%;
-  z-index: 22 !important; 
+  color: var(--golden-color) !important;
+  z-index: -22 !important; 
   bottom: 0px;
 
   transition: 0.5s ease-in-out !important;
 
-  border-bottom: 1px solid var(--golden-color);
+  border-bottom: 2px solid var(--golden-color);
 }
 .nav-item:hover .navhover{
-
+top: 0px !important;
   width: 100% !important;
 }
 .nav-item{
@@ -121,13 +123,12 @@ background-size: cover;
 font-size: 14px;
 text-transform: uppercase;
 font-weight: 500;
-
 transition: 0.4s ease-in-out !important;
-  position: relative;
+  position: relative !important;
 }
 .icon-hover{
   color:transparent !important;
-  position: absolute;
+  position: absolute !important;
   width: 100%;
   height: 0% !important;
   bottom: 0%;
@@ -200,10 +201,12 @@ transform: translateX(-43%);
 color:white;
 font-size: 15px;
 font-weight: 400;
+transition: 0.5s ease-in !important;
 letter-spacing: 0.1px;
 padding: 0px 10px !important;
 }
 .nav-item>.nav-link:hover{
+
   color:var(--golden-color) !important;
 }
 .dropdown-menu{
