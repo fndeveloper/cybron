@@ -182,6 +182,20 @@ transform: translateX(-43%);
 .colb2{
   color: white !important;
 }
+@media (max-width:576px) {
+
+.dropdown-menu >li>.nav-link {
+
+    font-size: 11px !important;
+  }
+  .dropdown-menu >.dropdown-item {
+
+    font-size: 11px !important;
+  }
+  .nav-item>.nav-link{
+    font-size: 12px !important; 
+  }
+}
 .nav-item>.nav-link{
 color:white;
 font-size: 15px;
@@ -277,7 +291,10 @@ color: var(--color1) !important;
 
 }
 @media (max-width:992px) {
-    /* .carousel-item>div>img{
+.dropdown-header{
+  font-size: 14px !important;
+}
+  /* .carousel-item>div>img{
         background-attachment: fixed !important;
         height: 120vh !important;
     } */
