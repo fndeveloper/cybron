@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
   --color1:#6095FF;
-
+--color2:#8f8f8f;
   /* --color1:#283cf5; */
   --text-color: rgb(104, 104, 104);
   --text-color1:rgb(124, 124, 124);
@@ -12,6 +12,9 @@
   --color2:#182149;;
 
  --font-family: "Poppins", serif;
+}
+.color-2{
+  color: var(--color2) !important;
 }
 button{
   cursor: grab !important;
@@ -297,10 +300,7 @@ color: var(--color1) !important;
 .dropdown-header{
 margin-left: -19px !important;
 }
-  /* .carousel-item>div>img{
-        background-attachment: fixed !important;
-        height: 120vh !important;
-    } */
+
      .main1{
         bottom: -250px !important;
      }
