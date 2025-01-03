@@ -33,7 +33,7 @@ body{
  font-family: var(--font-family) !important;
   margin: 0px;
   padding: 0px;
-  text-transform: capitalize !important;
+  /* text-transform: capitalize !important; */
 }
 .span-head{
   font-size: 14px;
