@@ -13,6 +13,7 @@
 
  --font-family: "Poppins", serif;
 }
+
 .color-2{
   color: var(--color2) !important;
 }
@@ -985,4 +986,10 @@ text-align: start !important;
     }
     .colddd{
       box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+    }
+    footer>div>div>div>img{
+      height: 150px !important;
+      /* width: 250px !important; */
+      object-fit: cover !important;
+      background-size: cover !important;
     }
