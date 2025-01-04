@@ -993,3 +993,29 @@ text-align: start !important;
       object-fit: cover !important;
       background-size: cover !important;
     }
+
+    .frameworkpic{
+      height: 18%;
+      /* width: 100% !important; */
+      object-fit: cover;
+      background-size: cover;
+      background-image: url(/assets/framework.jpg);
+position: relative !important;
+    }
+    .diveye{
+ display: flex !important;
+ justify-content: center !important;
+ flex-direction: row !important;
+ align-items: center;
+      position: absolute !important;
+      height: 1% !important;
+      width: 1% !important;
+      border-radius: 200% ;
+      transition: 0.9s ease-in-out !important;
+    }
+    .frameworkpic:hover .diveye{
+      background-color: #6095ff78 !important;
+      height: 100% !important;
+      width: 100% !important;
+      border-radius: 0% !important;
+    }
