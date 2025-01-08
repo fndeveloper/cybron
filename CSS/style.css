@@ -328,7 +328,7 @@ margin-left: -19px !important;
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   height: 110vh !important;
-    background-image: url("/assets/banner\ \(3\)\ \(1\).png");
+    background-image: url("../assets/banner_3.png");
     
 }
 .slider-img2{
@@ -341,7 +341,7 @@ margin-left: -19px !important;
   background-size: cover;
   background-repeat: no-repeat;
   height: 110vh !important;
-    background-image: url("/assets/17268573083.png");
+    background-image: url("../assets/banner_4.png");
     
     background-attachment: fixed !important;
 }
@@ -487,7 +487,7 @@ z-index: 22 !important;
   padding: 40px 0px !important;
   font-size: 16px;
   background-color: var(--color1);
-    /* background-image: url(/assets/ff.png); */
+    /* background-image: url("../assets/ff.png); */
     /* height: calc(80vh - 30vh ); */
     background-attachment: fixed;
     background-size: cover;
@@ -511,26 +511,26 @@ z-index: 22 !important;
 
 .course-img1{
   border-radius: 14px;
-    background-image: url(/assets/cir\ \(1\).jpg);
+    background-image: url("../assets/cir_1.jpg");
    object-position: center;
     object-fit: cover;
     background-position: center !important;
     background-size: cover;
 }
 .course-img2{
-    background-image: url(/assets/cir\ \(2\).jpg);
+    background-image: url("../assets/cir_2.jpg");
     background-position: center !important;
    
     object-fit: cover;
     background-size: cover;
 }.course-img3{
-    background-image: url(/assets/cir\ \(4\).jpg);
+    background-image: url("../assets/cir_4.jpg");
     background-position: center !important;
    
     object-fit: cover;
     background-size: cover;
 }.course-img4{
-    background-image: url(/assets/cir\ \(5\).jpg);
+    background-image: url("../assets/cir_5.jpg");
     background-position: center !important;
   
     object-fit: cover;
@@ -592,7 +592,7 @@ background-size: cover;
 object-fit: cover;
 background-position: center;
     height: 80vh;
-    background-image: url(/assets/counter-bg.jpg);
+    background-image: url("../assets/counter-bg.jpg");
 }
 
 .adbook{
@@ -680,7 +680,7 @@ height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   height: 90vh;
-background-image: url("/assets/banner\ \(5\).png");
+background-image: url("../assets/banner_5.png");
 }
 
 .back1{
@@ -692,7 +692,7 @@ background-image: url("/assets/banner\ \(5\).png");
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   height: 90vh;
-background-image: url("/assets/banner\ \(6\).png");
+background-image: url("/assets/banner_6.png");
 }
 
 .gty>div>span{
@@ -712,7 +712,7 @@ margin-top: -40px !important;
 .contact-page{
   background-position: center;
   /* height: 80vh; */
-  background-image: url(/assets/contact.png);
+  background-image: url("/assets/contact.png") !important  ;
 }
 
 .locte{
@@ -766,11 +766,17 @@ footer>div>div>div>h5{
 .test-bg{
   /* height: calc(90vh - 30vh); */
   width: 100%;
-  background-image: url("/assets/test\ \(1\).png");
   background-size: cover;
   object-fit: cover;
   position: relative !important;
 
+}
+.whycol-11{
+  height: 100vh;
+  background-position: center;
+  background-image: url("/assets/evulation_4.png") !important;
+object-fit: cover;
+background-size: cover;
 }
 @media (max-width:992px) {
   .testi1{
@@ -788,17 +794,14 @@ footer>div>div>div>h5{
   bottom: 0px !important;
   
 }
-/* .accordion,.accordion-item {
 
-  background-color: var(--color1) !important;
-} */
 .accordion-button{
   color: white !important;
   background-color: var(--color1) !important;
 }
 
 .testi2{
-  /* left: -50px !important; */
+
   top: 0px;
   position: absolute;
   clip-path: polygon(26% 0, 100% 0, 100% 20%, 100% 79%, 75% 100%, 20% 100%, 0 100%, 0% 20%);
@@ -873,7 +876,7 @@ z-index: 5;
 
 .whycol-1{
   height: 100vh;
-  background-image: url(/assets/uss\ \(3\).jpg);
+  background-image: url("../assets/uss_1.jpg");
 object-fit: cover;
 background-size: cover;
 }
@@ -890,12 +893,12 @@ background-size: cover;
 position: relative;
 }
 .us1{
-background-image: url(/assets/uss\ \(1\).jpg);
+background-image: url("../assets/uss_2.jpg");
 }
 .us2{
-  background-image: url(/assets/uss\ \(3\).jpg) !important;
+  background-image: url("../assets/uss_3.jpg") !important;
   }.us3{
-    background-image: url(/assets/uss\ \(4\).jpg)
+    background-image: url("../assets/uss_4.jpg")
     }
     .ushover{
       transition: 0.9s ease !important;
@@ -1007,7 +1010,7 @@ text-align: start !important;
       /* width: 100% !important; */
       object-fit: cover;
       background-size: cover;
-      background-image: url(/assets/framework.jpg);
+      background-image: url("../assets/framework.jpg");
 position: relative !important;
     }
     .diveye{

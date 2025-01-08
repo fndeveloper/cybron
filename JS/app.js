@@ -36,21 +36,21 @@ function updateCounter() {
 
 setInterval(updateCounter, 800);
 
-var form=document.getElementById("form");
-form.addEventListener("submit",(e)=>{
-    e.preventDefault();
-   var arr=[];
-   for (let index = 0; index < e.target.length; index++) {
-    const element = e.target[index].value;
-    // console.log(element);
-    arr.push(element)
+// var form=document.getElementById("form");
+// form.addEventListener("submit",(e)=>{
+//     e.preventDefault();
+//    var arr=[];
+//    for (let index = 0; index < e.target.length; index++) {
+//     const element = e.target[index].value;
+//     // console.log(element);
+//     arr.push(element)
     
-   }
+//    }
   
-   console.log(arr);
+//    console.log(arr);
    
     
-})
+// })
 
 // slider
 
