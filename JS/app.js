@@ -10,13 +10,13 @@ window.addEventListener("scroll", function() {
             dr.classList.add("ddd")
             navlink.forEach((e) => {
                 e.classList.add("colb"); // Ensure you're adding the correct class
-                console.log(e);
+                
             });
         } else {
             navbar.classList.remove("fixtop");
             navlink.forEach((e) => {
                 e.classList.remove("colb"); // Remove the same class added earlier
-                console.log(e);
+             
             });
         }
     }
