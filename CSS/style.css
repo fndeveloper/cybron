@@ -713,7 +713,7 @@ margin-top: -40px !important;
 .contact-page{
   background-position: center;
   /* height: 80vh; */
-  background-image: url("assets/contact.png") !important  ;
+  background-image: url("/assets/contact.png") !important  ;
 }
 
 .locte{
