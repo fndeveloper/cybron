@@ -52,7 +52,8 @@ button {
 
 
 .span-head {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 600 !important;
   color: white;
 }
 
@@ -273,7 +274,7 @@ button {
 
 li>.dropdown-item {
 
-  transition: 0.4s ease-in-out !important;
+  transition: 0.2s ease-in-out !important;
 }
 
 li>.dropdown-item:hover {
@@ -281,6 +282,15 @@ li>.dropdown-item:hover {
   background-color: var(--color1);
 
 }
+.dropdown-large>div>div>.dropdown-item{
+  transition: 0.2s ease-in-out !important;
+}
+.dropdown-large>div>div>.dropdown-item:hover {
+  color: white !important;
+  background-color: var(--color1);
+
+}
+
 
 .dropdown-item {
   font-weight: 600 !important;
@@ -393,8 +403,8 @@ li>.dropdown-item:hover {
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   height: 110vh !important;
-
-  background-image: url("../assets/banner_3.png");
+/* background-image: url("https://media.istockphoto.com/id/2012123857/photo/cosy-adult-man-sit-in-the-kitchen-typing-on-laptop-computer-chatting-with-friends-enjoying.jpg?s=612x612&w=0&k=20&c=_jl745OODRblQLqp9QuzNqjCanNm9aLQFrVB26Ix2Ws="); */
+  background-image: url("../assets/banner_9.png");
 
 }
 
@@ -408,7 +418,7 @@ li>.dropdown-item:hover {
   background-size: cover;
   background-repeat: no-repeat;
   height: 110vh !important;
-  background-image: url("../assets/banner_4.png");
+  background-image: url("../assets/banner_10.png");
 
   background-attachment: fixed !important;
 }
@@ -1205,7 +1215,16 @@ footer>div>div>div>img {
   background-image: url("../assets/framework.jpg");
   position: relative !important;
 }
-
+.icon>a>i{
+ 
+  border-radius: 10px;
+ 
+  font-size: 13px;
+  transition: 0.3s ease-in-out !important;
+}
+.icon>a>i:hover{
+  color: var(--color1) !important;
+} 
 .diveye {
   display: flex !important;
   justify-content: center !important;
