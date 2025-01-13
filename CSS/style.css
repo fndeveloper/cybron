@@ -1197,10 +1197,11 @@ footer>div>div>div>img {
 }
 
 .frameworkpic {
-  height: 18%;
+  height: 285px !important;
   /* width: 100% !important; */
-  object-fit: cover;
-  background-size: cover;
+  /* width: 100% !important; */
+  object-fit: cover !important;
+  background-size: cover !important;
   background-image: url("../assets/framework.jpg");
   position: relative !important;
 }
