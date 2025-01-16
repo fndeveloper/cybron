@@ -95,7 +95,8 @@ button {
 .navbar {
   top: 60px;
   z-index: 100;
-
+ 
+/* background-color: red !important; */
   position: absolute !important;
   /* opacity: 0.9; */
   background-color: #0000000a !important;
@@ -182,9 +183,14 @@ button {
   bottom: 40px !important;
   color: white !important;
   border-radius: 50px;
-  right: 37px;
+  right: 22px;
   z-index: 111111 !important;
-  padding: 10px;
+  padding: 12px;
+  height: 50px;
+  width: 50px;
+  font-size: 14px;
+  text-align: center !important;
+  font-weight: 900 !important;
   font-weight: 700 !important;
   background-color: var(--color1);
   position: fixed;
@@ -1264,4 +1270,11 @@ fill: white !important;
 }
 .course-img:hover .hov>div>h5,.hov>div>h6{
   color: white !important;
+}
+#nav-width{
+  border-bottom:3px solid var(--color1) !important;
+  width: 1%;
+  bottom: 0px;
+  left: 0%;
+position: absolute; 
 }

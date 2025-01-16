@@ -155,9 +155,9 @@ border-radius: 10% !important;
         <i class="fa-brands fa-linkedin text-white"></i>
       </a>
     </div>
-    <a href="#" class="topbtnfix">
-
-      <i class="fa-solid fa-arrow-up"></i>
+   <a href="#" class="topbtnfix text-decoration-none" id="fixee">
+0%
+      <!-- <i class="fa-solid fa-arrow-up"></i> -->
 
     </a>
   </div>
@@ -165,134 +165,142 @@ border-radius: 10% !important;
     <!-- NAVBAR -->
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg px-0 py-0 container-fluid" id="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="assets/logo.png" alt="" class="col-lg-6 col-5" /> <!-- Replace with actual logo path -->
-        </a>
-        <button class="btn d-lg-none navbar-expand-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-          <i class="fa-solid fa-bars text-dark"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              <span class="navhover"></span>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cybron</a>
-              <span class="navhover"></span>
-              <ul class="dropdown-menu mx-auto">
-                <li>
-                  <a class="dropdown-item nav-link" href="about.html">About Cybron</a>
-                  
-                </li>
-                <li>
-                  <a class="dropdown-item nav-link" href="why.html">Why Chose US</a>
-                </li>
-                <li>
-                  <a class="dropdown-item nav-link" href="evolution.html">Evolution of Cybron</a>
-                </li>
-                <li>
-                  <a class="dropdown-item nav-link" href="framework.html">Framework of Cybron</a>
-                </li> <li>
-                  <a class="dropdown-item nav-link" href="certifications.html">Certfication</a>
-                </li> <li>
-                  <a class="dropdown-item nav-link" href="assessment.html">Assessment and Methodology</a>
-                </li> <li>
-                  <a class="dropdown-item nav-link" href="careers.html">Careers & Opportunities</a>
+    <nav class="navbar navbar-expand-lg px-0 py-0 container-fluid d-flex flex-column" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="" class="col-lg-6 col-5" /> <!-- Replace with actual logo path -->
+      </a>
+      <button class="btn d-lg-none navbar-expand-lg" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <i class="fa-solid fa-bars text-dark"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <span class="navhover"></span>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Cybron</a>
+            <span class="navhover"></span>
+            <ul class="dropdown-menu mx-auto">
+              <li>
+                <a class="dropdown-item nav-link" href="about.html">About Cybron</a>
 
-                
-                </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Memberships</a>
-              <span class="navhover"></span>
-              <ul class="dropdown-menu mx-auto">
-                <li>
-                  <a class="dropdown-item nav-link" href="ScoutMemberships.html">Cybron Scout Memberships</a>
-                </li>
-                <li>
-                  <a class="dropdown-item nav-link" href="AssociateMemberships.html">Cybron Associate Memberships</a>
-                </li>
-                <li>
-                  <a class="dropdown-item nav-link" href="ProfessionalMemberships.html"> Cybron Professional Memberships</a>
-                </li>
-              </ul>
-            </li>
-            <!--  -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Get Started Certifications
-                
-              </a>
-              <span class="navhover"></span>
-              <ul class="dropdown-menu dropdown-large  py-3  p-lg-3 mx-auto">
-                <div class="container d-flex flex-row ">
-                  <!-- Cybron Scout Certifications -->
-                  <div class="col-lg-3 col-md-6">
-                    <h6 class="dropdown-header">CYBRON SCOUT CERTIFICATIONS</h6>
-                    <a class="dropdown-item" href="6thgrade.html">Cybron Scout Grade 6 Certification</a>
-                    <a class="dropdown-item" href="7thgrade.html">Cybron Scout Grade 7 Certification</a>
-                    <a class="dropdown-item" href="8thgrade.html">Cybron Scout Grade 8 Certification</a>
-                    <a class="dropdown-item" href="9thgrade.html">Cybron Scout Grade 9 Certification</a>
-                    <a class="dropdown-item" href="10thgrade.html">Cybron Scout Grade 10 Certification</a>
-                    <a class="dropdown-item" href="diploma.html">Cybron Diploma</a>
-                  </div>
-                  <!-- Cybron Associate Certifications -->
-                  <div class="col-lg-3 col-md-6">
-                    <h6 class="dropdown-header">CYBRON ASSOCIATE CERTIFICATIONS</h6>
-                    <a class="dropdown-item" href="fundamentals.html">Cybron Fundamentals</a>
-                    <a class="dropdown-item" href="cybron.html">Cybron +</a>
-                    <a class="dropdown-item" href="bluehacking.html">True Blue Hacking</a>
-                    <a class="dropdown-item" href="bluehacking+.html">True Blue Hacking +</a>
-                  </div>
-                  <!-- Cybron Security Professional -->
-                  <div class="col-lg-3 col-md-6">
-                    <h6 class="dropdown-header">CYBRON SECURITY PROFESSIONAL</h6>
-                    <a class="dropdown-item" href="offensive.html">Cybron Offensive Security</a>
-                    <a class="dropdown-item" href="Infrastructure.html">Cybron Infrastructure Security</a>
-                    <a class="dropdown-item" href="Network.html">Cybron Network Security</a>
-                    <a class="dropdown-item" href="Application.html">Cybron Application Security</a>
-                    <a class="dropdown-item" href="Architecture.html">Cybron Security Architecture</a>
-                    <a class="dropdown-item" href="Engineering.html">Cybron Security Engineering</a>
-                    <a class="dropdown-item" href="Management.html">Cybron Security Management</a>
-                  </div>
-                  <!-- Cybron Network -->
-                  <div class="col-lg-3 col-md-6">
-                    <h6 class="dropdown-header">CYBRON NETWORK</h6>
-                    <a class="dropdown-item" href="Partners.html">Cybron Partners</a>
-                    <a class="dropdown-item" href="BecomePartner.html">Become a Partner</a>
-                    <a class="dropdown-item" href="Trainers.html">Cybron Trainers</a>
-                    <a class="dropdown-item" href="BecomeTrainer.html">Become a Trainer</a>
-                  </div>
+              </li>
+              <li>
+                <a class="dropdown-item nav-link" href="why.html">Why Chose US</a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-link" href="evolution.html">Evolution of Cybron</a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-link" href="framework.html">Framework of Cybron</a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-link" href="certifications.html">Certfication</a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-link" href="assessment.html">Assessment and Methodology</a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-link" href="careers.html">Careers & Opportunities</a>
+
+
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Memberships</a>
+            <span class="navhover"></span>
+            <ul class="dropdown-menu mx-auto">
+              <li>
+                <a class="dropdown-item nav-link" href="ScoutMemberships.html">Cybron Scout Memberships</a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-link" href="AssociateMemberships.html">Cybron Associate Memberships</a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-link" href="ProfessionalMemberships.html"> Cybron Professional
+                  Memberships</a>
+              </li>
+            </ul>
+          </li>
+          <!--  -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Get Started Certifications
+
+            </a>
+            <span class="navhover"></span>
+            <ul class="dropdown-menu dropdown-large  py-3  p-lg-3 mx-auto">
+              <div class="container d-flex flex-row ">
+                <!-- Cybron Scout Certifications -->
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="dropdown-header">CYBRON SCOUT CERTIFICATIONS</h6>
+                  <a class="dropdown-item" href="6thgrade.html">Cybron Scout Grade 6 Certification</a>
+                  <a class="dropdown-item" href="7thgrade.html">Cybron Scout Grade 7 Certification</a>
+                  <a class="dropdown-item" href="8thgrade.html">Cybron Scout Grade 8 Certification</a>
+                  <a class="dropdown-item" href="9thgrade.html">Cybron Scout Grade 9 Certification</a>
+                  <a class="dropdown-item" href="10thgrade.html">Cybron Scout Grade 10 Certification</a>
+                  <a class="dropdown-item" href="diploma.html">Cybron Diploma</a>
                 </div>
-              </ul>
-            </li>
-            
-            <!--  -->
-            <li class="nav-item">
-              <a class="nav-link"  href="blog.html">Blog</a>
-              <span class="navhover"></span>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="contact.html">Contact Us</a>
-              <span class="navhover"></span>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <div class="input-group">
-              <input type="text" class="col-9 p-1 selc bg-transparent" aria-label="Search" placeholder="Search" />
-              <i class="input-group-text bg-transparent border-0 text-white">
-                <i class="fa fa-search dr" aria-hidden="true"></i>
-              </i>
-            </div>
-          </form>
-        </div>
+                <!-- Cybron Associate Certifications -->
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="dropdown-header">CYBRON ASSOCIATE CERTIFICATIONS</h6>
+                  <a class="dropdown-item" href="fundamentals.html">Cybron Fundamentals</a>
+                  <a class="dropdown-item" href="cybron.html">Cybron +</a>
+                  <a class="dropdown-item" href="bluehacking.html">True Blue Hacking</a>
+                  <a class="dropdown-item" href="bluehacking+.html">True Blue Hacking +</a>
+                </div>
+                <!-- Cybron Security Professional -->
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="dropdown-header">CYBRON SECURITY PROFESSIONAL</h6>
+                  <a class="dropdown-item" href="offensive.html">Cybron Offensive Security</a>
+                  <a class="dropdown-item" href="Infrastructure.html">Cybron Infrastructure Security</a>
+                  <a class="dropdown-item" href="Network.html">Cybron Network Security</a>
+                  <a class="dropdown-item" href="Application.html">Cybron Application Security</a>
+                  <a class="dropdown-item" href="Architecture.html">Cybron Security Architecture</a>
+                  <a class="dropdown-item" href="Engineering.html">Cybron Security Engineering</a>
+                  <a class="dropdown-item" href="Management.html">Cybron Security Management</a>
+                </div>
+                <!-- Cybron Network -->
+                <div class="col-lg-3 col-md-6">
+                  <h6 class="dropdown-header">CYBRON NETWORK</h6>
+                  <a class="dropdown-item" href="Partners.html">Cybron Partners</a>
+                  <a class="dropdown-item" href="BecomePartner.html">Become a Partner</a>
+                  <a class="dropdown-item" href="Trainers.html">Cybron Trainers</a>
+                  <a class="dropdown-item" href="BecomeTrainer.html">Become a Trainer</a>
+                </div>
+              </div>
+            </ul>
+          </li>
+
+          <!--  -->
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+            <span class="navhover"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+            <span class="navhover"></span>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <div class="input-group">
+            <input type="text" class="col-9 p-1 selc bg-transparent" aria-label="Search" placeholder="Search" />
+            <i class="input-group-text bg-transparent border-0 text-white">
+              <i class="fa fa-search dr" aria-hidden="true"></i>
+            </i>
+          </div>
+        </form>
       </div>
-    </nav>
+    </div>
+    <div id="nav-width" class="text-dark"></div>
+  </nav>
     <!-- NAVBAR -->
 <!-- OFFCANVAS -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
