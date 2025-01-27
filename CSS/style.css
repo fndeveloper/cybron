@@ -86,10 +86,7 @@ button {
     top: 10px !important;
   }
 
-  .frameworkpic {
-    display: none !important;
-    height: 100% !important;
-  }
+
 }
 
 .navbar {
@@ -702,13 +699,6 @@ swiper-slide img {
 }
 
 /* swiper */
-.sli {
-  background-size: cover;
-  object-fit: cover;
-  background-position: center;
-  height: 80vh;
-  background-image: url("../assets/counter-bg.jpg");
-}
 
 .adbook {
 
@@ -801,7 +791,7 @@ iframe {
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   height: 90vh;
-  background-image: url("../assets/banner_5.png");
+  
 }
 
 .back1 {
@@ -1160,7 +1150,7 @@ footer>div>div>div>img {
   /* width: 100% !important; */
   object-fit: cover !important;
   background-size: cover !important;
-  background-image: url("../assets/framework.jpg");
+
   position: relative !important;
 }
 .icon>a>i{
@@ -1222,7 +1212,7 @@ position: absolute;
 }
 
 .aboutback{
-
+  background-color: #6095FF;
   transform: scale(1) !important;
 transition: 0.9s ease-in-out !important;
 background-position: center !important;
@@ -1242,9 +1232,7 @@ z-index: -1;
 .whycol-1{
   height: 100vh !important;
   background-position: center;
-  /* background-image: url("assets/evulation_4.png") !important; */
-  /* background-image: url("../cybron1/assets/evulation_4.png"); */
-  /* background-image: url("/assets/evulation_4.png") !important; */
+
 object-fit: cover;
 background-size: cover;
 }
@@ -1387,3 +1375,93 @@ border-radius: 10% !important;
   background-color: white !important;
   color: #6095ff !important;
 }
+
+
+.color-2{
+  text-align:justify !important;
+  font-size: 15px;
+color:#4d4d4d !important;
+}
+
+  .color-2{
+ 
+  font-size: 15px;
+  font-weight: 500 !important;
+
+}
+  @keyframes progressAnimation {
+    from {
+      width: 0%;
+    }
+    to {
+      width: var(--progress-value);
+    }
+  }
+
+  .progress {
+    background-color: #e0e0e0;;
+    height: 10px;
+    width: 95%;
+  
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+
+  .progress-bar {
+    height: 100%;
+       border-radius: 5px;
+       background-color:#6095FF !important;
+    animation: progressAnimation 12s ease-out infinite;
+  }
+  .whycol-11{
+    z-index: -1;
+    height: 100vh ;
+    background-position: center;
+    object-fit: cover !important;
+    background-size: cover 1
+    ;
+  }
+  .frm{
+    background-color: var(--color1) !important;
+  }
+  .col-org{
+    font-weight: 700 !important;
+  
+  }
+
+
+  @media  (max-width:992px){
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background-color: white !important;
+    }
+}
+    .timeline {
+      position: relative;
+      /* padding-left: 50px; */
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 48%;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background-color: #6095FF;
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .timeline-item .year {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #6095FF;
+      margin-bottom: 10px;
+    }
