@@ -144,7 +144,6 @@ button {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px !important;
   transition: 0.4s ease-in-out !important;
   background-color: white !important;
-  /* background-color: var(--color1) !important; */
   position: fixed !important;
   top: 0px !important;
   height: 75px;
@@ -275,7 +274,7 @@ button {
 .dropdown-menu {
   transition: 1.6s ease-in-out !important;
   padding: 10px !important;
-  /* background-color:#283cf5 !important; */
+
 }
 
 li>.dropdown-item {
@@ -302,7 +301,7 @@ li>.dropdown-item:hover {
   font-weight: 600 !important;
   font-size: 15px !important;
   color: var(--text-color) !important;
-  /* border-bottom: 1px solid var(--text-color) !important; */
+
 }
 
 /* NAVBAR */
@@ -409,9 +408,6 @@ li>.dropdown-item:hover {
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   height: 110vh !important;
-/* background-image: url("https://media.istockphoto.com/id/2012123857/photo/cosy-adult-man-sit-in-the-kitchen-typing-on-laptop-computer-chatting-with-friends-enjoying.jpg?s=612x612&w=0&k=20&c=_jl745OODRblQLqp9QuzNqjCanNm9aLQFrVB26Ix2Ws="); */
-  background-image: url("../assets/banner_9.png");
-
 }
 
 .slider-img2 {
@@ -424,8 +420,6 @@ li>.dropdown-item:hover {
   background-size: cover;
   background-repeat: no-repeat;
   height: 110vh !important;
-  background-image: url("../assets/banner_10.png");
-
   background-attachment: fixed !important;
 }
 
@@ -594,9 +588,7 @@ li>.dropdown-item:hover {
   padding: 40px 0px !important;
   font-size: 16px;
   background-color: var(--color1);
-  /* background-image: url("../assets/ff.png); */
-  /* height: calc(80vh - 30vh ); */
-  background-attachment: fixed;
+    background-attachment: fixed;
   background-size: cover;
   object-fit: cover;
   border-radius: 50px;
@@ -621,53 +613,22 @@ li>.dropdown-item:hover {
 
 .course-img1 {
   border-radius: 14px;
-  background-image: url("../assets/cir_1.jpg");
-  object-position: center;
+   object-position: center;
   object-fit: cover;
   background-position: center !important;
   background-size: cover;
+  height: 100%;
 }
-.course-img6 {
-  border-radius: 14px;
-  background-image: url("../assets/cir_6.jpg");
-  object-position: center;
-  object-fit: cover;
-  background-position: center !important;
-  background-size: cover;
+.cardtt{
+  transition: 0.6s ease-in-out !important;
+  background-color: #1818188a;
 }
 
-.course-img5 {
-  border-radius: 14px;
-  background-image: url("../assets/cir_7.jpg");
-  object-position: center;
-  object-fit: cover;
-  background-position: center !important;
-  background-size: cover;
+.cardtt:hover{
+  background-color: #181818c8;
 }
 
-.course-img2 {
-  background-image: url("../assets/cir_2.jpg");
-  background-position: center !important;
 
-  object-fit: cover;
-  background-size: cover;
-}
-
-.course-img3 {
-  background-image: url("../assets/cir_4.jpg");
-  background-position: center !important;
-
-  object-fit: cover;
-  background-size: cover;
-}
-
-.course-img4 {
-  background-image: url("../assets/cir_5.jpg");
-  background-position: center !important;
-
-  object-fit: cover;
-  background-size: cover;
-}
 
 .course-img {
   overflow: hidden !important;
@@ -687,7 +648,8 @@ li>.dropdown-item:hover {
   border-radius: 8%;
   transition: 0.6s ease-in-out !important;
 }
-.course-img:hover {
+.course-img>div>img:hover {
+
   background-position: left !important;
   
 }
@@ -873,10 +835,10 @@ iframe {
   font-weight: 600;
 }
 
-.contact-page {
-  background-position: center;
-  /* height: 80vh; */
-  background-image: url("/assets/contact.png") !important;
+.contact-bg-img{
+  z-index: -1 ;
+  position: absolute;
+
 }
 
 .locte {
@@ -938,21 +900,12 @@ footer>div>div>div>h5 {
 }
 
 .test-bg {
-  /* height: calc(90vh - 30vh); */
   width: 100%;
   background-size: cover;
   object-fit: cover;
   position: relative !important;
 
 }
-
-/* .whycol-11{
-  height: 100vh;
-  background-position: center;
-  background-image: url("assets/evulation_4.png");
-object-fit: cover;
-background-size: cover;
-} */
 @media (max-width:992px) {
   .testi1 {
     height: 240px !important;
@@ -961,7 +914,7 @@ background-size: cover;
 }
 
 .testi1 {
-  -webkit-mask-position: center center !important;
+  /* -webkit-mask-position: center center !important; */
   border-radius: 9%;
   height: 350px;
   width: 55% !important;
@@ -1058,12 +1011,7 @@ background-size: cover;
   background-color: white !important;
 }
 
-/* .whycol-1 {
-  height: 100vh;
-  background-image: url("/assets/about2-img-1.jpg") !important;
-  object-fit: cover;
-  background-size: cover;
-} */
+
 
 .smalltext {
   color: var(--text-color);
