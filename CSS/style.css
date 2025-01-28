@@ -46,7 +46,7 @@ button {
 }
 
 .navhover {
-  /* background-color: #bb9108 !important; */
+
   position: absolute !important;
   top: 0px;
   width: 0%;
@@ -80,10 +80,8 @@ button {
 .navbar {
   top: 60px;
   z-index: 100;
-
-  /* background-color: red !important; */
   position: absolute !important;
-  /* opacity: 0.9; */
+
   background-color: #0000000a !important;
 
 }
@@ -156,11 +154,8 @@ button {
   font-size: 24px !important;
   z-index: 111;
   padding-top: 6px;
-  /* padding-top: 20px !important; */
   left: 0px;
   border: none !important;
-  /* padding-top: 12px; */
-
 }
 
 .topbtnfix {
@@ -183,7 +178,6 @@ button {
 
 .dropdown-large {
   font-size: 14px !important;
-  /* padding: 250px 0px !important; */
   position: absolute !important;
   width: 90vw !important;
 
@@ -196,7 +190,6 @@ button {
   }
 
   .dropdown-menu>li>.dropdown-item {
-    /* color: red !important; */
     font-size: 13px !important;
     margin-left: -5px;
   }
@@ -357,7 +350,7 @@ li>.dropdown-item:hover {
   background-color: rgb(255, 255, 255) !important;
 }
 
-/* HTML: <div class="loader"></div> */
+
 .carousel-item>div>img {
   background-attachment: fixed !important;
   height: 100vh !important;
@@ -489,7 +482,8 @@ li>.dropdown-item:hover {
 }
 
 .car:hover .carhover {
-  /* opacity: 1; */
+
+
   border-radius: 0%;
 
   height: 100% !important;
@@ -509,15 +503,15 @@ li>.dropdown-item:hover {
 .crett1 {
   color: var(--color1);
   display: none !important;
-  /* color: var(--color1) !important; */
+
 }
 
 .crett {
   font-size: 24px;
-  /* box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; */
+
   border-radius: 30px;
   background-color: transparent !important;
-  /* background-color: white; */
+
 }
 
 .cret>i {
@@ -544,7 +538,6 @@ li>.dropdown-item:hover {
   transition: 0.9s ease-in-out !important;
   margin: 5px 0px;
 
-  /* border-left: 1px dashed var(--color1); */
 }
 
 .appdiv>div:hover {
@@ -762,7 +755,6 @@ iframe {
   border-bottom: 5px solid white !important;
   margin: 4px 0px !important;
   background-color: var(--color1);
-  /* right: 0px !important; */
 }
 
 .appdiv:hover .aphov {
@@ -814,7 +806,6 @@ iframe {
 .gty>div>i,
 .gty>div>h2,
 .gty>div>span {
-  /* font-weight: 500; */
   color: var(--color1);
 }
 
@@ -831,7 +822,6 @@ iframe {
 .locte {
   margin-top: -5px;
   font-size: 14px;
-  /* color: white !important; */
 }
 
 .form-control1 {
@@ -883,7 +873,7 @@ footer>div>div>div>h5 {
 
 .testimoina {
   padding: 40px 0px;
-  /* height: 100vh !important; */
+
 }
 
 .test-bg {
@@ -897,12 +887,12 @@ footer>div>div>div>h5 {
 @media (max-width:992px) {
   .testi1 {
     height: 240px !important;
-    /* display: none !important; */
+
   }
 }
 
 .testi1 {
-  /* -webkit-mask-position: center center !important; */
+
   border-radius: 9%;
   height: 350px;
   width: 55% !important;
@@ -975,13 +965,11 @@ footer>div>div>div>h5 {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 
-  /* background-color: #F4F7FB !important; */
-
 }
 
 .sucees-page {
   margin: 20px 0px !important;
-  /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+
 }
 
 /* suecss */
@@ -1115,7 +1103,7 @@ footer>div>div>div>h5 {
   width: 100%;
   transition: 0.3s ease-in-out !important;
 
-  /* padding: 10px; */
+
   bottom: 90px;
   position: absolute;
   opacity: 0 !important;
@@ -1139,15 +1127,14 @@ footer>div>div>div>h5 {
 
 footer>div>div>div>img {
   height: 150px !important;
-  /* width: 250px !important; */
+
   object-fit: cover !important;
   background-size: cover !important;
 }
 
 .frameworkpic {
   height: 285px !important;
-  /* width: 100% !important; */
-  /* width: 100% !important; */
+
   object-fit: cover !important;
   background-size: cover !important;
 
@@ -1489,7 +1476,7 @@ footer>div>div>div>img {
 
 .timeline {
   position: relative;
-  /* padding-left: 50px; */
+
 }
 
 .timeline::before {
