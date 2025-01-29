@@ -50,7 +50,7 @@ const counterElement4 = document.getElementById('counter4');
 
 
 function updateCounter() {
-    counterElement.textContent = count;
+    counterElement.innerHTML = count;
    
     count++;
 
@@ -60,10 +60,10 @@ function updateCounter() {
   
 }
 function updateCounter1(){
-    // counterElement1.textContent = count1  ;
-    counterElement2.textContent = count2 ;
-    counterElement3.textContent = count3;
-    counterElement4.textContent = count4 ;
+    counterElement1.innerHTML = count1  ;
+    counterElement2.innerHTML = count2 ;
+    counterElement3.innerHTML = count3;
+    counterElement4.innerHTML = count4 ;
     count1+=7;
     count2+=3;
     count3+=9;  
