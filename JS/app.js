@@ -60,7 +60,7 @@ function updateCounter() {
   
 }
 function updateCounter1(){
-    counterElement1.textContent = count1  ;
+    // counterElement1.textContent = count1  ;
     counterElement2.textContent = count2 ;
     counterElement3.textContent = count3;
     counterElement4.textContent = count4 ;
