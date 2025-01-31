@@ -367,6 +367,7 @@ li>.dropdown-item:hover {
     bottom: -250px !important;
   }
 }
+
 a:hover{
   cursor: grabbing !important;
 }
